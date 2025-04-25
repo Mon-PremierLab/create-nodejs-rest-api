@@ -1,22 +1,32 @@
 {
-  "author": {
-    "name": "MonPremierLab"
-  },
+  "author": "MonPremierLab",
   "description": "Création d'une API REST avec Node.js et Express",
   "name": "manage-stock",
   "version": "1.0.0",
   "license": "Cet atelier est fourni gratuitement pour un usage éducatif. Toute redistribution doit inclure cette mention",
   "dependencies": {
-    "express": "^4.21.2",
-    "nodemon": "^3.1.9"
+    "express": "^4.21.2"
   },
-  "keywords": ["MonPremierLab", "Node.js", "Express"],
-  "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "MonPremierLab",
+    "Node.js",
+    "Express"
+  ],
+  "main": "src/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HELIODORE12/Challenge-1-Create-REST-API.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HELIODORE12/Challenge-1-Create-REST-API/issues"
+  },
+  "homepage": "https://github.com/HELIODORE12/Challenge-1-Create-REST-API#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
-
-
-
